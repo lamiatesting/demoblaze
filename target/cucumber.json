@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 80,
+        "name": "Verify User Can Logout",
+        "description": "",
+        "id": "this-is-demoblaze-login-functionalities;verify-user-can-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 622120600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Launch Application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDeffClassDB.launch_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2174361500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Click Login Link",
+            "match": {
+              "location": "StepDeffClassDB.click_Login_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3171772600,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User Input Credentials \u003c\"Username\"\u003e \u003c\"Password\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 25
+                },
+                {
+                  "val": "Password",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDeffClassDB.user_Input_Credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3069762300,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Click Login Button",
+            "match": {
+              "location": "StepDeffClassDB.click_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3313850800,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Click Logout Button",
+            "match": {
+              "location": "StepDeffClassDB.click_Logout_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80096500,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify User Can Logout",
+            "match": {
+              "location": "StepDeffClassDB.verify_User_Can_Logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 79,
+            "name": "@loginLogout"
+          }
+        ]
+      }
+    ],
+    "name": "This is Demoblaze Login Functionalities",
+    "description": "",
+    "id": "this-is-demoblaze-login-functionalities",
+    "keyword": "Feature",
+    "uri": "DBFunctionalities.feature"
+  }
+]
